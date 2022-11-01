@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyRoom</title>
+</head>
+<body>
+<!-- this is called template inheritance so basically we will be wrapping the pages inside this block -->
+<!-- for the things which are common for both the blocks will come outside the block for example the navbar
+ -->
+
+ {% include 'navbar.html' %}
+
+    {% block content %}
+
+    {% endblock content %}
+    
+
+</body>
+</html>
