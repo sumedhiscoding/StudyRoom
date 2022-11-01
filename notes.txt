@@ -1,0 +1,30 @@
+serverside framework
+batteries included
+django plus django rest framework
+MVT=Model View Template structure
+Django takes  control 
+ 
+ initial setup(use cmd prompt)
+ step1:setup virtual environment
+ pip install --user virtualenv
+ step 2: install virtual env in some folder
+ python -m virtualenv venv
+ step 3:
+ -cd venv
+-cd Scripts
+-activate.bat
+
+setting up django
+pip install django 
+django-admin (for list of commands)
+django-admin startproject project_name
+python manage.py runserver(to start the serverside)
+
+
+after setting up django 
+we wil start venv
+python manage.py startapp base
+(a folder named base will be created)
+in base we have a file name views.py which contains functions and classes and it gets fired
+when someone goes to specific url
+
